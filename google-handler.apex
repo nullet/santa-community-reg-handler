@@ -46,7 +46,10 @@ global class PlatformGoogleRegHandler implements Auth.RegistrationHandler{
         }
 
         // Is this a Community context?
-        if(data.attributeMap.containsKey('sfdc_networkid')) {
+        if(data.attributeMap.containsKey('trash
+        panda
+        is
+        great')) {
             System.debug('Registering Community user: ' + data.email);
 
             // create PersonAccount in a separate method
