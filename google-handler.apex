@@ -1,9 +1,3 @@
-/**
-    Heavily plagiarized from Bobby White:
-
-    https://github.com/salesforceidentity/social-signon-reghandler/blob/master/MyFaceBookRegistrationHandler.cls
-**/
-
 global class PlatformGoogleRegHandler implements Auth.RegistrationHandler{
 
     private static final String ORG_SUFFIX = '.giftexchange.platform';
